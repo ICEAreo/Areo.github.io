@@ -1,0 +1,39 @@
+h1 {
+    font-family: Pixel;
+    font-size: 30;
+}
+table, td {
+    border: 3px solid rgb(59, 40, 163);
+  }
+  @font-face {
+    font-family: 'Pixel';
+    src: url(UNI0553-WEBFONT.TTF);
+}
+html{
+    background-color: rgb(115, 78, 85);
+}
+thead th {
+    background: #88ccf100;
+    color: rgb(0, 0, 0);
+    font-family: Pixel;
+    font-size: 24px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+h3, h4, th, td, li, form {
+      font-family: Pixel;
+      font-size: 20px;
+}
+h2, div, label {
+      font-family: Pixel;
+      font-size: 24px;
+}
+h6, p, figcaption {
+      font-family: Pixel;
+      font-size: 12px;
+}
+hr{
+    border-color: rgb(50, 0, 0);
+
+}

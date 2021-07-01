@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<link href="CAPhtml.css" type="text/css" rel="stylesheet">
+    <nav>
+        <a href="HomePage.html"><img src="Home.png" alt="Home"/></a>
+        <a href="./ContactMe.html"><img src="Contact.png" alt="Contact"/></a>
+        <a href="./Tableofcontents.html"><img src="ToC.png" alt="Table of Contents"/></a>
+        <a href="login.html"><img src="Login.png" alt="Login Here!"/></a>
+    </nav>
+<head>
+    <title>Login Page!</title>
+</head>
+<header>
+<center>
+    <br><img src="LNH.png" alt="Login"><br>
+</center>
+</header>
+
+<center>
+    <form action="" method="POST">
+    <label for="username">Username:</label>
+    <input type="text" placeholder="username" minlength="2" name="username" id="username" required pattern="[a-zA-Z0-9]+">
+</center>
+
+<center>
+<label for="user-password">Password:</label>
+<input type="password" placeholder="password" minlength="7" name="user-password" id="user-password" required>
+
+<section class="submission">
+    <input type="submit" value="Submit">
+    </section>
+</form>
+<hr>
+<h1>Fill out a quick Survey to tell me about you!</h1>
+<h2>How old are you?</h2>
+<form action="submission.html" method="POST">
+<label for="user-age">I am:</label>
+<input type="number" min="0" max="122.5" name="user-age" id="user-age">
+
+<h2>How likely are you to refer a friend?</h2>
+
+    <label for="RAF">Choose:</label>
+    <span>0</span>
+        <input type="range" min="0" max="100" name="RAF" id="RAF" step="5">
+    <span>100</span>
+
+<h2>What Operating system are you using?</h2>
+
+
+    <input type="checkbox" value="windows" name="system" id="windows">
+    <label for="windows">Windows</label><br>
+    <input type="checkbox" value="linux" name="system" id="linux">
+    <label for="linux">Linux</label><br>
+    <input type="checkbox" value="other" name="system" id="other">
+    <label for="other">Other</label><br>
+
+<h2>Where are you in Schooling?</h2>
+
+    <input type="radio" value="middle-school" name="school" id="middle-school">
+    <label for="middle-school">Middle-School</label><br>
+    <input type="radio" value="high-school" name="school" id="high-school">
+    <label for="high-school">High-School</label><br>
+    <input type="radio" value="graduated" name="school" id="graduated">
+    <label for="graduated">Graduated</label><br>
+    <input type="radio" value="college" name="school" id="college">
+    <label for="college">College</label><br>
+
+<h2>What's your gender</h2>
+
+    <label for="gender">I am:</label>
+    <select name="gender" id="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+    </select>
+<br>
+<h2>Where are you from?</h2>
+<label for="city">I am from:</label>
+<input type="text" list="cities" id="city" name="city">
+       
+<datalist id="cities">
+    <option value="Fort Wayne"></option>
+    <option value="New York City"></option>
+    <option value="Tokyo"></option>
+    <option value="Barcelona"></option>
+    <option value="Mexico City"></option>
+    <option value="Melbourne"></option>
+    <option value="Other"></option>  
+</datalist>
+<br>
+<h2>Tell me about you!</h2>
+<label for="aboutyou">About Me:</label><br>
+<textarea id="aboutyou" maxlength="300" rows="5" cols="50"></textarea>
+<br>
+<section class="submission">
+<input type="submit" value="Submit">
+</section>
+
+
+</form>
+<hr><footer>
+<h6>coded and locally owned by <em>AreoSpades</em></h6></footer>
+</center>
+</html>
